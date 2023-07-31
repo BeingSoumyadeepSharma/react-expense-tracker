@@ -1,4 +1,5 @@
 import ExpenseItem from "./components/ExpenseItem";
+import "./App.css";
 
 function App() {
   const expenses = [
@@ -24,7 +25,7 @@ function App() {
   ];
 
   return (
-    <div>
+    <div className="App-background">
       <h2>My First React App!</h2>
       <ExpenseItem
         title={expenses[0].title}
